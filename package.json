@@ -1,0 +1,16 @@
+{
+  "name": "typesense",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typesense": "docker run  --name typesense-test -p 8108:8108 -v/tmp:/data typesense/typesense:0.25.0 --data-dir /data --api-key=xyz " 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
